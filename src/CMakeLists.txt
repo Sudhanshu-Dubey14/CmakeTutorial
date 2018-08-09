@@ -9,4 +9,4 @@ add_executable(numbers ${Numbers})
 target_link_libraries(function lib)
 target_link_libraries(numbers lib)
 
-install(TARGETS function numbers DESTINATION path/to/directory)
+install(TARGETS function numbers DESTINATION ${PROJECT_SOURCE_DIR}/bin)
