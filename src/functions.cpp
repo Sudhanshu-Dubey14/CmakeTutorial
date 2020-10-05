@@ -4,13 +4,13 @@
  The statements with <> are used to include predefined header files.
  The statements with "" are used to when we want to include a particular file from the current directory.
  */
-#include<iostream> // #(prepreocessor directive) include header file iostream
+#include<iostream> // #(preprocessor directive) include header file iostream
 #include"header.cpp" // include 'header.cpp' as a header file
 
 /*
  A namespace defines a scope. It provides a way of separating various sets of names.
  It differentiates functions, classes, variables etc. having same names but present in different libraries.
- 'using' is a directive. "Using namespace" tells the compliler to use the 'names' in the specified namespace.
+ 'using' is a directive. "Using namespace" tells the compiler to use the 'names' in the specified namespace.
 */
 using namespace std; // use std(standard) namespace
 
