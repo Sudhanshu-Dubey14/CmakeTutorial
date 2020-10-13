@@ -1,3 +1,4 @@
+
 # CMake
 
 ## Introduction
@@ -10,13 +11,15 @@ For full documentation visit the  [CMake Home Page](https://cmake.org/)  and the
 
 CMake is distributed under the OSI-approved BSD 3-clause License. See  [Copyright.txt](https://github.com/Kitware/CMake/blob/master/Copyright.txt)  for details.
 
-## Building CMake
+
 
 ### Prerequisites
 
 You will need:
 
 -   A modern C/C++ compiler
+- Git
+- make
 -   CMake 3.1+ installed (on a Mac, run  `brew install cmake`)
 -   If you prefer to code in a great IDE, I highly recommend  [Jetbrains CLion](https://www.jetbrains.com/clion/). 
 
@@ -63,6 +66,8 @@ CMake suite maintained and supported by Kitware (kitware.com/cmake).
 
 ## How to build this demo
 
+#### UNIX/Mac OSX
+
 Re-generate the build files using the following command:
 
 ```
@@ -78,3 +83,10 @@ The resultant files now have been installed in the bin directory. You can naviga
 ./function
 ./numbers
 ```
+
+# Other Links
+
+There are CMake tutorials which you will find useful during your CMake journey.
+- [CMake with Directories](https://hacksd.wordpress.com/2018/08/09/cmake-with-directories/)
+    
+-   [CMake : Simplifying Build Process](https://hacksd.wordpress.com/2018/07/20/cmake/)
