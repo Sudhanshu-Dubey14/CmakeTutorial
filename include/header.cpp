@@ -18,9 +18,9 @@ char isprime(int num)
 }
 
 char ispalindrome(int num)
-{ int i, rev=0;
-  for( ; num!=0 ; num/=10 )
-   rev = rev*10 + num%10;
+{ int i, rev=0, temp=num;
+  for( ; temp!=0 ; temp/=10 )
+   rev = rev*10 + temp%10;
   if(rev == num  )
     return 'y';
   else
